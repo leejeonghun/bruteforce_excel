@@ -18,8 +18,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#ifndef BRUTEFORCE_EXCEL_BRUTEFORCE_EXCEL_PRECOMPILE_H_
-#define BRUTEFORCE_EXCEL_BRUTEFORCE_EXCEL_PRECOMPILE_H_
+#ifndef BRUTEFORCE_EXCEL_PRECOMPILE_H_
+#define BRUTEFORCE_EXCEL_PRECOMPILE_H_
 
 #define NTDDI_VERSION 0x05010000
 #define _WIN32_WINNT 0x0501
@@ -28,5 +28,13 @@
 #include <sdkddkver.h>
 #include <windows.h>
 #include <atlcomcli.h>
+#include <shlwapi.h>
+#include <cstdint>
+#include <iostream>
+#include <vector>
+#include <atomic>
+#include <chrono>  // NOLINT
+#include <mutex>  // NOLINT
+#include <thread>  // NOLINT
 
-#endif  // BRUTEFORCE_EXCEL_BRUTEFORCE_EXCEL_PRECOMPILE_H_
+#endif  // BRUTEFORCE_EXCEL_PRECOMPILE_H_
